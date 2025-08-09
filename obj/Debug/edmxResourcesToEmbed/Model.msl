@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BT_DatabaseModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="MonthlyExpenses">
+      <EntityTypeMapping TypeName="BT_DatabaseModel.MonthlyExpens">
+        <MappingFragment StoreEntitySet="MonthlyExpenses">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="BT_DatabaseModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="TargetExpense" ColumnName="TargetExpense" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WeeklyExpenses">
+      <EntityTypeMapping TypeName="BT_DatabaseModel.WeeklyExpens">
+        <MappingFragment StoreEntitySet="WeeklyExpenses">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="Item" ColumnName="Item" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

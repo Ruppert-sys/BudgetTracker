@@ -1,0 +1,90 @@
+﻿<Window x:Class="BudgetTracker.ShowTipsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BudgetTracker"
+        mc:Ignorable="d"
+        Title="Tips" Height="640" Width="480" FontSize="14">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontStyle="Italic" FontSize="17">
+            Here are some tips on how to manage your money
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            1)
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            2)
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            3)
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            4)
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            5)
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            6)
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            7)
+        </Label>
+
+        <TextBlock Grid.Column="2" Grid.Row="2" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center">
+            Choosing the right bank is one of the building blocks of financial success. Managing your money in a bank can help you increase, invest, and save you a lot of money.
+        </TextBlock>
+
+        <TextBlock Grid.Column="2" Grid.Row="3" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center">
+            Plan on what you should and should not spend.
+        </TextBlock>
+
+        <TextBlock Grid.Column="2" Grid.Row="4" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center">
+            Set money goals.List down what you want to do with your money.
+        </TextBlock>
+
+        <TextBlock Grid.Column="2" Grid.Row="5" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center">
+            Monitor your income. It is important to monitor your income because it can help you manage the things you do with your money.
+        </TextBlock>
+
+        <TextBlock Grid.Column="2" Grid.Row="6" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center">
+            Pay all the debts you have.
+        </TextBlock>
+
+        <TextBlock Grid.Column="2" Grid.Row="7" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center">
+            Build an emergency fund.
+        </TextBlock>
+
+        <TextBlock Grid.Column="2" Grid.Row="8" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center">
+            Start investing.
+        </TextBlock>
+    </Grid>
+</Window>

@@ -1,0 +1,68 @@
+﻿<Window x:Class="BudgetTracker.AddWeeklyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BudgetTracker"
+        mc:Ignorable="d"
+        Title="Add Weekly Expense" Height="450" Width="388">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="125"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="20">
+            Add Weekly Expenses
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+            Weekly Expense
+        </Label>
+
+        <RadioButton x:Name="Week1Radio" Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0">
+            Week 1
+        </RadioButton>
+
+        <RadioButton x:Name="Week2Radio" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0">
+            Week 2
+        </RadioButton>
+
+        <RadioButton x:Name="Week3Radio" Grid.Column="2" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0">
+            Week 3
+        </RadioButton>
+
+
+        <Label Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center">
+            Item Name:
+        </Label>
+
+        <TextBox x:Name="ItemNameTextBox" Grid.Column="2" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="15"/>
+
+
+        <Label Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center">
+            Price:
+        </Label>
+
+        <TextBox x:Name="PriceTextBox" Grid.Column="2" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="15"/>
+
+        <Button Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="2" Width="100" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Click="AddItemClick">
+            Add Item
+        </Button>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,173 @@
+﻿<Window x:Class="BudgetTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BudgetTracker"
+        mc:Ignorable="d"
+        Title="Budget Tracker" Height="720" Width="1280" Closed="MainClosed"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="175"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Left">
+            Budget Tracker
+        </Label>
+
+        <Label Grid.Column="1" Grid.Row="2" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+            Name:
+        </Label>
+
+        <TextBox x:Name="NameTextBox" Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="20" Margin="10,0" TextAlignment="Left" VerticalContentAlignment="Center"/>
+
+        <Label Grid.Column="1" Grid.Row="3" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+            Age:
+        </Label>
+
+        <TextBox x:Name="AgeTextBox" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" Width="200" Height="20" Margin="10,0" TextAlignment="Left" VerticalContentAlignment="Center"/>
+
+        <Label Grid.Column="1" Grid.Row="4" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label.Content>
+                <TextBlock TextWrapping="Wrap">
+                    Target Expense for the Month:
+                </TextBlock>
+            </Label.Content>
+        </Label>
+
+        <TextBox x:Name="TargetTextBox" Grid.Column="2" Grid.Row="4" VerticalAlignment="Center" Width="200" Height="20" Margin="10,0" TextAlignment="Left" VerticalContentAlignment="Center" TextChanged="TargetTextBox_TextChanged"/>
+
+        <Button Grid.Column="1" Grid.Row="5" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="ShowTipsButton">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Show Tips
+        </Button>
+
+        <Button Grid.Column="1" Grid.Row="6" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="TransportFeesClick">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Transport Fees
+        </Button>
+
+        <Button Grid.Column="1" Grid.Row="7" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="CalculatorButton">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Calculator
+        </Button>
+
+        <Button Grid.Column="1" Grid.Row="8" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="BudgetSummaryButton">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Budget Summary
+        </Button>
+
+        <Button Grid.Column="1" Grid.Row="9" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="SaveBudgetSummaryClick">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Save Budget Summary
+        </Button>
+
+        <Button Grid.Column="1" Grid.Row="10" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="LoadBudgetSummaryClick">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Load Budget Summary
+        </Button>
+
+        <Button Grid.Column="2" Grid.Row="5" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="AddWeeklyExpenseButton">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Add Weekly Expense
+        </Button>
+
+        <Button Grid.Column="2" Grid.Row="6" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="AddMonthlyWindowButton">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Add Monthly Expense
+        </Button>
+
+        <Button Grid.Column="2" Grid.Row="7" Height="auto" Width="175" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Click="RemoveExpenseClick">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+            Remove Expense
+        </Button>
+
+        <Label Grid.Column="4" Grid.Row="1" Width="auto" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">
+            Target Expense:
+        </Label>
+
+        <Rectangle x:Name="TargetTrackerRect" Grid.Column="5" Grid.Row="1" Height="30" Width="auto" Stroke="Black" RadiusX="15" RadiusY="15">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="Green" Offset="0.0" />
+                    <GradientStop Color="Green" Offset="0.0" />
+                    <GradientStop Color="White" Offset="0.0" />
+                    <GradientStop Color="White" Offset="0.0" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Label x:Name="TargetTrackerLabel" Grid.Column="5" Grid.Row="1" Height="30" Width="auto" HorizontalAlignment="Center" VerticalAlignment="Center" Content="">
+        </Label>
+
+        <DataGrid x:Name="ExpenseDataGrid" ItemsSource="{Binding ExpenseItems}" SelectionUnit="Cell"
+                  Grid.Column="3" Grid.Row="2" Grid.RowSpan="9" Grid.ColumnSpan="3" 
+                  ColumnWidth="*" AutoGenerateColumns="False" IsReadOnly="True" CanUserSortColumns="False">
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Week 1" Width="*" Binding="{Binding Week1}"/>
+                <DataGridTextColumn Header="Week 2" Width="*" Binding="{Binding Week2}"/>
+                <DataGridTextColumn Header="Week 3" Width="*" Binding="{Binding Week3}"/>
+                <DataGridTextColumn Header="Monthly Expense" Width="*" Binding="{Binding Monthly}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window> 

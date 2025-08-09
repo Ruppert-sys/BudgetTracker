@@ -1,0 +1,31 @@
+﻿<Window x:Class="BudgetTracker.TransportationFeesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BudgetTracker"
+        mc:Ignorable="d"
+        Title="TransportationFeesWindow" Height="800" Width="712">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="TransportName" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="PUB(Ordinary) - Fees" FontSize="40" FontWeight="Bold"/>
+        <Image x:Name="ImageFees" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Source="/Fares/Ordinary-MM.png" />
+        <Button Grid.Row="3" Grid.Column="1" x:Name="PrevButton" Height="40" Width="150" FontSize="18" Content="Previous Fee" HorizontalAlignment="Center" VerticalAlignment="Center" Click="PrevClick" />
+        <Button Grid.Row="3" Grid.Column="2" x:Name="NextButton" Height="40" Width="150" FontSize="18" Content="Next Fee" HorizontalAlignment="Center" VerticalAlignment="Center" Click="NextClick" />
+
+
+    </Grid>
+</Window>

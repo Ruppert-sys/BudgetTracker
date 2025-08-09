@@ -1,0 +1,88 @@
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\BT_Database.mdf
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\BT_Database_log.ldf
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\Fares\Aircon-MM.png
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\Fares\Ordinary-MM.png
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\BudgetTracker.exe.config
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\BudgetTracker.exe
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\BudgetTracker.pdb
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.dll
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.dll
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.xml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.pdb
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.xml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.AssemblyReference.cache
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.SuggestedBindingRedirects.cache
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\AddMonthlyWindow.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\AddWeeklyWindow.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetSummaryWindow.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\LoadBudgetSummaryWindow.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\MainWindow.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\ShowTipsWindow.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\TransportationFeesWindow.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\App.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker_Content.g.cs
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker_MarkupCompile.cache
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker_MarkupCompile.lref
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\AddMonthlyWindow.baml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\AddWeeklyWindow.baml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetSummaryWindow.baml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\LoadBudgetSummaryWindow.baml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\MainWindow.baml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\ShowTipsWindow.baml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\TransportationFeesWindow.baml
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.g.resources
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.Properties.Resources.resources
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.GenerateResource.cache
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.CoreCompileInputs.cache
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.CopyComplete
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.exe
+C:\Users\josem\Desktop\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.pdb
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\BT_Database.mdf
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\BT_Database_log.ldf
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\Fares\Aircon-MM.png
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\Fares\Ordinary-MM.png
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\BudgetTracker.exe.config
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\BudgetTracker.exe
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\BudgetTracker.pdb
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.dll
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.SqlServer.dll
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.dll
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.Wpf.dll
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.xml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\EntityFramework.SqlServer.xml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.pdb
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.xml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.Wpf.pdb
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\bin\Debug\LiveCharts.Wpf.xml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.AssemblyReference.cache
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.SuggestedBindingRedirects.cache
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\AddMonthlyWindow.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\AddWeeklyWindow.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetSummaryWindow.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\LoadBudgetSummaryWindow.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\MainWindow.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\ShowTipsWindow.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\TransportationFeesWindow.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\App.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker_Content.g.cs
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker_MarkupCompile.cache
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker_MarkupCompile.lref
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\AddMonthlyWindow.baml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\AddWeeklyWindow.baml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetSummaryWindow.baml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\LoadBudgetSummaryWindow.baml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\MainWindow.baml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\ShowTipsWindow.baml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\TransportationFeesWindow.baml
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.g.resources
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.Properties.Resources.resources
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.GenerateResource.cache
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.CoreCompileInputs.cache
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.csproj.CopyComplete
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.exe
+J:\Jeff Files\ACAD\CPE106L_E01(current)\Project File\BudgetTracker\BudgetTracker\obj\Debug\BudgetTracker.pdb
